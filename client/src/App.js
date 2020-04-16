@@ -12,7 +12,7 @@ import SearchResults from './components/SearchResults';
 
 export default function App() {
   return (
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
       <NavBar />
       <div>
           <Switch>
